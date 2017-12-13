@@ -11,7 +11,7 @@ My machine **T430s** run **Void Linux**
 | Bar 			| `no-bar` 		 |
 | Compositor | `compton` 	 |
 | Notifications | `dunstc` / `/libnotify` |
-| Music Player  | `mpd` + `ncmpcpp` |
+| Music Player  | `mpd` + `ncmpcpp` / `spotify` |
 | Video Player 	| `mpv` |
 | File Manager 	| `ranger` |
 | Image Viewer  | `sxiv` |
