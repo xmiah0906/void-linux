@@ -1,0 +1,79 @@
+####################################################
+## this is example configuration file, copy it to ##
+## ~/.ncmpcpp/config and set up your preferences ##
+####################################################
+#
+##### directories #####
+##
+## Directory for storing ncmpcpp related files.
+## Changing it is useful if you want to store
+## everything somewhere else and provide command
+## line setting for alternative location to config
+## file which defines that while launching ncmpcpp.
+##
+#
+mpd_music_dir     = "~/Music"
+ncmpcpp_directory = "~/Music"
+#
+##
+## Directory for storing downloaded lyrics.
+## It defaults to ~/.lyrics since other MPD clients
+## (eg. ncmpc) also use that location.
+##
+#
+lyrics_directory = "~/.config/ncmpcpp/.lyrics"
+#
+#user_interface = "alternative"
+user_interface = "classic"
+follow_now_playing_lyrics = "yes"
+visualizer_fifo_path = "/tmp/mpd.fifo"
+visualizer_output_name = "my_fifo"
+visualizer_type = "spectrum" (spectrum/wave)
+visualizer_look =  "●▮"
+visualizer_color = "blue, cyan, green, yellow, magenta, red"
+visualizer_sync_interval = "20"
+
+#main_window_highlight_color = "white"
+
+#progressbar_look  = "─╼"
+progressbar_look = "▃▃▃"
+
+progressbar_color = "black"
+progressbar_elapsed_color = "white"
+
+#old config
+
+#song_list_format = %f{$R%l}
+#song_status_format = " $2%a $4⟫$3⟫ $8%t $4⟫$3⟫ $5%b "
+#playlist_display_mode = "classic" (classic/columns)
+
+#new config
+song_list_format = "$0%t"
+song_status_format = "$4%a $4-$3 $4%t"
+song_columns_list_format = "(4) [white] {} (55) [white] {t}"
+playlist_display_mode = "columns" (classic/columns)
+now_playing_prefix = "$2-"
+
+colors_enabled = "yes"
+centered_cursor = "yes"
+statusbar_visibility = "yes"
+discard_colors_if_item_is_selected = "yes"
+##########
+
+#now_playing_prefix = "$b$8»$2»$4»$3» "
+#now_playing_prefix = "$b$2⟩$3⟩ "
+#now_playing_suffix = "$8$/b"
+
+#song_columns_list_format  = "(1f)[]{} (50)[blue]{t} (5)[]{} (22)[cyan]{ar} (5f)[white]{lr}"
+
+color1 = "white"
+color2 = "black"
+
+display_bitrate = "no"
+mouse_support = "yes"
+header_visibility = "no"
+autocenter_mode = "yes"
+titles_visibility = "no"
+enable_window_title = "no"
+external_editor = vim
+execute_on_song_change = ~/bin/notify.sh
