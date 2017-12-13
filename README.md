@@ -22,3 +22,8 @@ My machine **T430s** run **Void Linux**
 | Colorscheme | `Pywal` |
 | Scripts 	| `bin directory` |
 
+**Screenshots**
+
+![Imgur host 12-14-2017](https://i.imgur.com/yA8uy8F.jpg)
+
+
