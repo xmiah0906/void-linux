@@ -24,6 +24,6 @@ My machine **T430s** run **Void Linux**
 
 **Screenshots**
 
-![Imgur host 12-14-2017](https://i.imgur.com/yA8uy8F.jpg)
+![Imgur 12-14-2017](https://i.imgur.com/sUt0bym.jpg)
 
 
