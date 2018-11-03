@@ -1,6 +1,6 @@
- Lenovo Thinkpad **T430s** running **Void Linux**
+ **Lenovo Thinkad T430s** 
 
-#### Info
+### Info:
 
 | **Info**  | **Name**  |
 | --------- | --------- |
@@ -11,7 +11,7 @@
 | Bar 			| `polybar` 		 |
 | Compositor | `compton` 	 |
 | Notifications | `dunst`  |
-| Music Player  | `mps-youte` / `Spotify` |
+| Music Player  | `mps-youtube` / `Spotify` |
 | Video Player 	| `mpv` |
 | File Manager 	| `ranger` |
 | Image Viewer  | `sxiv` |
@@ -22,7 +22,8 @@
 | Colorscheme | `pywal` |
 
 **Screenshots**
+--------
 
-![Imgur 12-14-2017](https://i.imgur.com/sUt0bym.jpg)
+![Imgur 12-14-2017/11-03-2018](https://i.imgur.com/n811xCh.png)
 
 
