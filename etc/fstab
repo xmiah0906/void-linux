@@ -1,0 +1,10 @@
+# Mount Systems
+
+UUID=4df026c5-d55c-4ccf-a9a0-12425976d72d / xfs defaults 0 1
+UUID=5981-510E /boot/efi vfat defaults 0 2
+UUID=bc17978f-6d47-4333-b76a-c9eb422f6658 /home xfs defaults 0 2
+
+tmpfs /home/xmiah/tmpfs tmpfs rw,nodev,nosuid,noexec,size=2G 0 0
+
+# Mount OS
+UUID=bdf80e38-6a89-46d6-a865-f46d7c37d011 /home/xmiah/Arch-Linux xfs rw,defaults 0 2 
