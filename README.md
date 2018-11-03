@@ -1,26 +1,25 @@
-My machine **T430s** run **Void Linux**
+ Lenovo Thinkpad **T430s** running **Void Linux**
 
 #### Info
 
 | **Info**  | **Name**  |
 | --------- | --------- |
 | OS 				| `Void Linux` |
-| WM 				| `Bspwm` 		 |
-| Shell 		| `zsh` 			 |
-| Launcher  | `Rofi` 			 |
-| Bar 			| `no-bar` 		 |
+| WM 				| `2bwm` 		 |
+| Shell 		| `fish` 			 |
+| Launcher  | `rofi` 			 |
+| Bar 			| `polybar` 		 |
 | Compositor | `compton` 	 |
-| Notifications | `dunstc` / `/libnotify` |
-| Music Player  | `mpd` + `ncmpcpp` / `spotify` |
+| Notifications | `dunst`  |
+| Music Player  | `mps-youte` / `Spotify` |
 | Video Player 	| `mpv` |
 | File Manager 	| `ranger` |
 | Image Viewer  | `sxiv` |
-| Text Editor   | `vim` |
-| Terminal Emulator | `urxvt` + `tmux` |
+| Text Editor   | `neovim` |
+| Terminal Emulator | `rxvt` + `tmux` |
 | Web Browser | `Firefox ESR` |
-| Download Manager | `aria2c` + `cliget` add on FIrefox |
-| Colorscheme | `Pywal` |
-| Scripts 	| `bin directory` |
+| Download Manager | `aria2c` + `cliget` add on from `firefox` |
+| Colorscheme | `pywal` |
 
 **Screenshots**
 
