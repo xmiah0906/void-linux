@@ -7,39 +7,6 @@ white  = ${xrdb:color15}
 [dims]
 padding = 1
 
-[bar/bottom]
-width = 184
-height = 22
-
-offset-x = 15
-offset-y = 3
-
-radius = 4
-monitor = LVDS1 
-overrite-redirect = true
-font-0 = Operator Mono:pixelsize=8;1
-font-1 = FontAwesome:pixelsize=8;1
-font-2 = Siji:pixelsize=8;2
-font-3 = unifont:pixelsize=8
-font-4 = Iosevka Medium:size=7;1
-
-background = ${colors.red}
-foreground = ${colors.white}
-
-modules-center = 2bwm
-fixed-center = true
-tray-position = right
-bottom = true
-
-;2bwm
-[module/2bwm]
-type = custom/script
-exec = ~/bin/2bws.sh
-interval = 0.5
-format-padding = 1
-format-background = ${colors.black}
-format-foreground = ${colors.red}
-
 [bar/top]
 width  = 398
 height = 22
