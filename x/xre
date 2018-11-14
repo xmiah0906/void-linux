@@ -19,11 +19,6 @@ Xft.lcdfilter : lcddefault
 *.internalBorder : 22
 *.buffered:        false
 
-
-! Enables copy/paste with Ctrl-Shift-C/V
-*.keysym.Shift-Control-C: perl:clipboard:copy
-*.keysym.Shift-Control-V: perl:clipboard:paste
-
 ! Disable ctrl+shift
 *.iso14755:     false
 *.iso14755_52:  false
@@ -43,7 +38,7 @@ Xft.lcdfilter : lcddefault
 !*.font: -*-lemon-*
 !*.boldFont: -*-lemon-*
 
-*.font:     xft:scientifica:size=9
+*.font:     xft:Roboto Mono for Powerline:size=8
 
 *.letterSpace:  0
 *.lineSpace:    0
@@ -55,12 +50,12 @@ Xft.lcdfilter : lcddefault
 
 !Colors:  {{
 
-#define blk #142830
-#define gry #5a8596
-#define red #7399bf
-#define grn #bf736e
-#define blu #c9af79
-#define wht #edeff0
+#define blk #e6dccf
+#define gry #807a73
+#define red #bf8c4d
+#define grn #ae4667
+#define blu #803c95
+#define wht #231e2c
 
 *.foreground:   wht
 *.background:   blk
@@ -100,27 +95,28 @@ Xft.lcdfilter : lcddefault
 !
 twobwm.border_width: 5
 twobwm.outer_border: 3
-twobwm.inverted_colors:  true
+twobwm.inverted_colors:  false
 twobwm.enable_compton:   true
 
-twobwm.focus_color:         red
+twobwm.focus_color:         grn
 twobwm.unfocus_color:       blk
 twobwm.outer_border_color:  blk
 
 ! $Mod+f {{
-twobwm.fixed_color:         red
-twobwm.fixed_unkill_color:  red
+twobwm.fixed_color:         grn
+twobwm.fixed_unkill_color:  grn
 !}}
 
 ! $Mod+a {{
-twobwm.unkill_color: red
+twobwm.unkill_color: grn
 
 !}}
+
 ! ---
 ! Rofi
 ! ---
 
 rofi.color-window: blk
-rofi.color-normal: blk, wht, blk, red, blk
+rofi.color-normal: blk, wht, blk, grn, blk
 rofi.color-activa: blk, wht, blk, blu, blk
 rofi.color-urgent: blk, wht, blk, grn, blk
