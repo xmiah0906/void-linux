@@ -1,0 +1,34 @@
+! cyberpunk !
+#define c00 #181818
+#define c10 #282828
+#define c11 #383838
+#define c08 #585858
+#define c12 #b8b8b8
+#define c07 #d8d8d8
+#define c13 #e8e8e8
+#define c15 #f8f8f8
+#define c01 #604938
+#define c09 #675348
+#define c03 #AA6640
+#define c02 #9A6D50
+#define c06 #4F9692
+#define c04 #B1875F
+#define c05 #D09339
+#define c14 #DA9561
+
+*.color0:       c00
+*.color1:       c01
+*.color2:       c02
+*.color3:       c03
+*.color4:       c04
+*.color5:       c05
+*.color6:       c06
+*.color7:       c07
+*.color8:       c08
+*.color9:       c09
+*.color10:      c10
+*.color11:      c11
+*.color12:      c12
+*.color13:      c13
+*.color14:      c14
+*.color15:      c15

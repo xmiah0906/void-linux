@@ -1,0 +1,52 @@
+! special colors
+*.foreground:  #f4004d
+*.background:  #000000
+*.cursorColor:  #282828
+! black
+*.color0:      #000000
+*.color8:      #000000
+! red
+*.color1:      #e21436
+*.color9:      #e21436
+! green
+*.color2:      #e214af
+*.color10:     #35a536
+! yellow
+*.color3:      #e1e510
+*.color11:     #e1e510
+! blue
+*.color4:      #386bd1
+*.color12:     #386bd1
+! magenta
+*.color5:      #c138d1
+*.color13:     #c138d1
+! cyan
+*.color6:      #019393
+*.color14:     #019393
+! white
+*.color7:      #bababa
+*.color15:     #bababa
+
+URxvt*scrollBar:         false
+URxvt*scrollBar_right:   false
+
+URxvt.internalBorder: 60
+
+URxvt*transparent:       false
+
+URxvt.font: xft:Fantasque Sans Mono:pixelsize=15
+URxvt.letterSpace: 0
+
+*antialias:  true
+*autohint:   true
+
+! Rofi
+rofi.color-enabled: true
+rofi.color-window: #101010, #FFFFFF, #FFFFFF
+rofi.color-normal: #101010, #ffffff, #181818, #FFFFFF, #ffffff
+rofi.color-active: #101010, #FFFFFF, #181818, #FFFFFF, #ffffff
+rofi.color.urgent: #101010, #f3843d, $181818, #FFFFFF, #ffc39c
+rofi.font: Terminess Powerline 10
+rofi.bw: 2
+rofi.width: -80
+rofi.scroll-method: 1

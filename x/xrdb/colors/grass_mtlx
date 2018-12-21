@@ -1,0 +1,32 @@
+#define    c0   #000000
+*color0:   c0
+#define    c1   #16201b
+*color1:   c1
+#define    c2   #22360d
+*color2:   c2
+#define    c3   #2f5a03
+*color3:   c3
+#define    c4   #3f4d2a
+*color4:   c4
+#define    c5   #4f7d18
+*color5:   c5
+#define    c6   #606f54
+*color6:   c6
+#define    c7   #769341
+*color7:   c7
+#define    c8   #6d8c77
+*color8:   c8
+#define    c9   #92a071
+*color9:   c9
+#define    c10  #91ae9d
+*color10:  c10
+#define    c11  #b4be94
+*color11:  c11
+#define    c12  #81bdf5
+*color12:  c12
+#define    c13  #93cdf0
+*color13:  c13
+#define    c14  #e8e4b0
+*color14:  c14
+#define    c15  #f0f0f0
+*color15:  c15

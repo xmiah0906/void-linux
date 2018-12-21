@@ -1,122 +1,13 @@
-! Desktop/Laptop Settings.
+! ╻ ╻┏━┓┏━╸┏━┓┏━┓╻ ╻┏━┓┏━╸┏━╸┏━┓
+! ┏╋┛┣┳┛┣╸ ┗━┓┃ ┃┃ ┃┣┳┛┃  ┣╸ ┗━┓
+! ╹ ╹╹┗╸┗━╸┗━┛┗━┛┗━┛╹┗╸┗━╸┗━╸┗━┛
+! by mhess
+! managed like they are supposed to be
 
-Xft.dpi       : 81
-Xft.autohint  : false
-Xft.antialias : true
-Xft.hinting   : true
-Xft.hintstyle : hintslight
-Xft.rgba      : rgb
-Xft.lcdfilter : lcddefault
-
-! scrollbar
-*.scrollBar:        false
-*.scrollBar_right:  true
-*.scrollstyle:      plain
-*.scrollColor:      red
-*.thickness:        10
-
-! Set terminal padding
-*.internalBorder : 22
-*.buffered:        false
-
-! Disable ctrl+shift
-*.iso14755:     false
-*.iso14755_52:  false
-
-! perl plugins
-*.perl-ext-common: default,selection-to-clipboard,matcher
-*.url-launcher:    /usr/bin/firefox
-*.matcher.button:  3
-*.matcher.rend.0:  fg9
-
-! Cursor
-*.cursorBlink:      true
-
-
-! -- Font: {{
-
-!*.font: -*-lemon-*
-!*.boldFont: -*-lemon-*
-
-*.font:     xft:Roboto Mono for Powerline:size=8
-
-*.letterSpace:  0
-*.lineSpace:    0
-
-!*.font:      xft:SF Mono:size=7
-*.boldFont:  
-
-!}}
-
-!Colors:  {{
-
-#define blk #e6dccf
-#define gry #807a73
-#define red #bf8c4d
-#define grn #ae4667
-#define blu #803c95
-#define wht #231e2c
-
-*.foreground:   wht
-*.background:   blk
-*.cursorColor:  red
-
-! blk
-*.color0:   blk
-
-! gry
-*.color8:   gry
-
-! red
-*.color1:   red
-*.color5:   red
-*.color9:   red
-*.color13:  red
-
-! grn
-*.color2:   grn
-*.color3:   grn
-*.color10:  grn
-*.color11:  grn
-
-! blu
-*.color4:   blu
-*.color6:   blu
-*.color12:  blu
-*.color14:  blu
-
-! wht
-*.color7:   wht
-*.color15:  wht
-!}}
-
-!
-! 2bwm --
-!
-twobwm.border_width: 5
-twobwm.outer_border: 3
-twobwm.inverted_colors:  false
-twobwm.enable_compton:   true
-
-twobwm.focus_color:         grn
-twobwm.unfocus_color:       blk
-twobwm.outer_border_color:  blk
-
-! $Mod+f {{
-twobwm.fixed_color:         grn
-twobwm.fixed_unkill_color:  grn
-!}}
-
-! $Mod+a {{
-twobwm.unkill_color: grn
-
-!}}
-
-! ---
-! Rofi
-! ---
-
-rofi.color-window: blk
-rofi.color-normal: blk, wht, blk, grn, blk
-rofi.color-activa: blk, wht, blk, blu, blk
-rofi.color-urgent: blk, wht, blk, grn, blk
+#include "xrdb/colors/xmiah-light"
+#include "xrdb/sxiv"
+#include "xrdb/xft"
+#include "xrdb/2bwm"
+#include "xrdb/rofi"
+#include "xrdb/st"
+#include "xrdb/rxvt"

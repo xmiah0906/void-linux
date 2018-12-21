@@ -1,0 +1,35 @@
+! jaguar !
+#define c00 #000000
+#define c01 #bb3333
+#define c02 #446655
+#define c03 #eebb22
+#define c04 #223344
+#define c05 #553344
+#define c06 #667788
+#define c07 #eeddcc
+#define c08 #665544
+#define c09 #cc9999
+#define c10 #ddffbb
+#define c11 #ffee66
+#define c12 #88aabb
+#define c13 #997788
+#define c14 #998877
+#define c15 #dddddd
+
+*.color0:       c00
+*.color1:       c01
+*.color2:       c02
+*.color3:       c03
+*.color4:       c04
+*.color5:       c05
+*.color6:       c06
+*.color7:       c07
+*.color8:       c08
+*.color9:       c09
+*.color10:      c10
+*.color11:      c11
+*.color12:      c12
+*.color13:      c13
+*.color14:      c14
+*.color15:      c15
+

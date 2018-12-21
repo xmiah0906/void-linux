@@ -17,8 +17,8 @@
 | Image Viewer  | `sxiv` |
 | Text Editor   | `neovim` |
 | Terminal Emulator | `rxvt` + `tmux` |
-| Web Browser | `Firefox ESR` |
-| Download Manager | `aria2c` + `cliget` add on from `firefox` |
+| Web Browser | `Firefox` |
+| Download Manager | `aria2c` + `Aria2 Download Manager Integration` add on from `firefox` |
 | Colorscheme | `pywal` |
 
 **Screenshots**

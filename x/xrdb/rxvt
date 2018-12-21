@@ -1,0 +1,40 @@
+! scrollbar
+
+URxvt.scrollBar:        false
+URxvt.scrollBar_right:  true
+URxvt.scrollstyle:      plain
+URxvt.scrollColor:      red
+URxvt.thickness:        10
+
+! Set terminal padding
+URxvt.internalBorder :  22
+URxvt.externalBorder:   12
+URxvt.buffered:         false
+
+! Disable ctrl+shift
+URxvt.iso14755:     false
+URxvt.iso14755_52:  false
+
+! Distance spaces letter
+URxvt.letterSpace:  0
+URxvt.lineSpace:    0
+
+
+! perl plugins
+URxvt.perl-ext-common: default,selection-to-clipboard,clipboard,matcher,keyboard-select,config-reload
+URxvt.url-launcher:    /usr/bin/firefox
+URxvt.underlineURLs: true
+URxvt.matcher.button:  3
+URxvt.matcher.rend.0:  fg9
+
+! Cursor
+URxvt.cursorBlink:      true
+
+
+! -- Font: {{
+
+URxvt.font:      xft:  Roboto Mono for Powerline:  size=8
+URxvt.boldFont:
+
+!}}
+

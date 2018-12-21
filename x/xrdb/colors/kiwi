@@ -1,0 +1,36 @@
+! kiwi !
+
+! COLORS !
+#define c00 #26251f
+#define c01 #354d29
+#define c02 #9378d3
+#define c03 #2f5da6
+#define c04 #8a4e3b
+#define c05 #cfc78d
+#define c06 #cfc1bc
+#define c07 #a18973
+#define c08 #af6844
+#define c09 #dcafa4
+#define c10 #d8d3dc
+#define c11 #d8cbd9
+#define c12 #bdc3d4
+#define c13 #ddcad6
+#define c14 #e5e2e1
+#define c15 #e3e4e0
+
+*.color0:    c00
+*.color1:    c01
+*.color2:    c02
+*.color3:    c03
+*.color4:    c04
+*.color5:    c05
+*.color6:    c06
+*.color7:    c07
+*.color8:    c08
+*.color9:    c09
+*.color10:    c10
+*.color11:    c11
+*.color12:    c12
+*.color13:    c13
+*.color14:    c14
+*.color15:    c15
